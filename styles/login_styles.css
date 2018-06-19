@@ -1,0 +1,28 @@
+*{
+	background-color:#FFFFFF;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+
+#main_div{
+	font-size:13px;
+	font-family:arial;
+}
+#header{
+	padding-bottom:30px;
+	text-align:center;
+}
+#header h2{
+	display:inline;
+	font-size:40px;
+}
+
+
+
+.button_regi a{
+
+}

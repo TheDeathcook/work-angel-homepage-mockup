@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<html>
+	<header>
+	<link rel="stylesheet" href="style_home.css" type="text/css"></link>
+		<title>Work Angel</title>
+	</header>
+	
+	<body>
+		<div id="main_div"><!--Main Div-->
+			<header>
+				<h2>Work Angel</h2>
+				<h3>Dein Arbeits Engel</h3>
+			</header> 
+			
+			<div id="functionbar"> <!--Functionbar-->
+				<ul>
+					<li class="home"><a href="home.html">Home</a></li>
+					<li class="profile"><a href="profile.html">Profile</a></li>
+					<li class="f_matches"><a href="matches.html">Matches</a></li>
+					<li class="angels"><a href="angels.html">Deine Engels</a></li>
+					<li class="logout"><a href="main_page.html">Logout</a></li>
+				</ul>
+			</div>
+			
+			<div id="profile_picture"><!--Profile Picture-->
+				<h4>Das bist du</h4>
+				<img src="images/examplepicture.jpg" alt="Hier ist ein cooles Bild von dir">
+				<p class="upload">
+					<input type="button" value="Bild hochladen">
+				</p>
+			</div>
+			
+			<div id="profile_conf"><!--Profile-->
+				<p>
+					<label for="forename">Vorname:</label>
+					<input type="text" name="forename">
+				</p>
+				<p>
+					<label for="lastname">Nachname:</label>
+					<input type="text" name="lastname">
+				</p>
+				<p>
+					<label for="description">Beschreibung:</label>
+					<textarea rows="8" cols="50"></textarea>
+				</p>
+				<p>
+					<label for="skills">Skills:</label>
+					<select type="list" name="skills">
+						<option>--Please Select--</option>
+						<option value="C++">C++</option>
+						<option value="Mehrsprachig">Mehrsprachig</option>
+						<option value="Handwerklich begabt">Handwerklich begabt</option>
+						<option value="Technisches Verständnis">Technisches Verständnis</option>
+						<option value="Leidenschaftlicher Biertrinker">Leidenschaftlicher Biertrinker</option>
+					</select>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
